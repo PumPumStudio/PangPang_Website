@@ -27,7 +27,6 @@ sr.reveal('.home-text', { delay: 350 });
 sr.reveal('.home-img', { delay: 350 });
 sr.reveal('.about-text', { delay: 350 });
 sr.reveal('.buy', { delay: 350 });
-sr.reveal('.about-us', { delay: 350, origin: 'left' });
 
 
 // function showDescription(workId) {

@@ -16,6 +16,8 @@
     --big-font: 4rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
+    --tablet-width: 768px;
+    --phone-width: 576px;
 }
 
 
@@ -737,10 +739,73 @@ header.sticky {
 
     .about-img {
         margin-bottom: 30px;
+
     }
 
     .about-img img {
         width: 100%;
+        height: auto;
+        /* 高度自動，保持圖片的原始比例 */
+        display: block;
+        /* 區塊顯示，可幫助垂直方向排列 */
+        margin: 0 auto;
         /* ensure the image is not larger than its container */
     }
+
+    .btn-pre {
+        margin-top: 450px;
+        margin-left: 120px;
+    }
+
+    .top-btn {
+        margin-left: -10px;
+    }
+
+    @keyframes scrollBackground {
+        0% {
+            background-position: 0 0;
+        }
+
+        100% {
+            background-position: -200px 0;
+            /* 这里的数值可以根据你的图像宽度调整 */
+        }
+    }
+
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .image-container_about {
+        width: 100%;
+        /* 容器宽度，你也可以设定固定像素值 */
+        height: 200px;
+        /* 容器高度，根据需要调整 */
+
+        background-image: url('../img/About us.png');
+        background-repeat: repeat-x;
+        /* 图片水平重复 */
+
+        animation: scrollBackground 20s linear infinite;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-img img {
+        max-width: 100%;
+        /* 最大寬度為容器的100% */
+        max-height: 75vh;
+        /* 最大高度為視窗高度的75%，可以根據需求調整 */
+        object-fit: contain;
+        /* 不剪切圖片，確保圖片全部顯示 */
+        width: 400px;
+        margin-left: 560px;
+    }
+
+    .btn-pre {
+        margin-top: 450px;
+        margin-left: 420px;
+    }
+
 }
