@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Perfume/img/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <a href="" class="logo"><img src="img/logo.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navlist">
+            <li><a href="#home">主頁</a></li>
+            <li><a href="#about">作品介紹</a></li>
+            <li><a href="#Perfume">作品</a></li>
+            <li><a href="#feeback">關於我們</a></li>
+        </ul>
+        <!-- <a href="#" class="top-btn">你好</a> -->
+    </header>
+    <!---home-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>哈囉，我們是</h3>
+            <h1>香水夢遊</h1>
+            <h5>一群對香味有興趣的人組成 <span>來自元智大學</span></h5>
+            <p>我們是一群對香味與藝術有興趣的學生<br>我們希望能讓大家體驗更多香味</p>
+            <div class="social">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#about" class="btn">關於我們</a>
+        </div>
+        <div class="home-img">
+            <img src="img/MyPhoto.png">
+        </div>
+    </section>
+    <!---subject-->
+    <section class="subject">
+        <div class="items">
+            <div class="sub-box">
+                <div class="sub-img">
+                    <img src="img/Target.png">
+                </div>
+                <h3>目標</h3>
+                <p>透過香味與藝術的結合呈現氣味的另一面</p>
+            </div>
+            <!---2--->
+            <div class="sub-box">
+                <div class="sub-img">
+                    <img src="img/Bulb.png">
+                </div>
+                <h3>創新</h3>
+                <p>藝術是可以與AR互動</p>
+            </div>
+            <!---3--->
+            <div class="sub-box">
+                <div class="sub-img">
+                    <img src="img//Brush.png">
+                </div>
+                <h3>品質</h3>
+                <p>過程中享受氣味與視覺的最高享受</p>
+            </div>
+        </div>
+    </section>
+
+    <!---about me-->
+    <section class="about" id="about">
+
+        <div class="about-text">
+
+            <h3>我們是一群就讀元智大學資訊傳播學系的大四學生</h3>
+            <h2>想到香味是否能跟音樂結合</h2>
+            <p>當我們談論藝術，往往會想到視覺和聽覺的享受，然而，有一種感官卻常常被忽略，那就是氣味。氣味不僅僅是一種感官刺激，更是一種能夠喚起記憶、情感和想像的強大力量。本次展覽將藝術與氣味結合，打破傳統藝術形式的束縛，讓觀眾透過嗅覺感受到藝術的無限可能性。
+            </p>
+            <div class="about-img">
+                <img src="./img/Intro.png" alt="">
+            </div>
+            <a href="#" class="top-btn">聯繫我們</a>
+
+
+        </div>
+    </section>
+    <div class="buy">
+        <section class="portfolio" id="Perfume">
+            <div class="heading">
+                <h3>白日慵懶</h3>
+                <h2>融合展場的特製香水</h2>
+                <p>專業調香師製成</p>
+            </div>
+            <!---<div class="portfolio-content">
+            --1-
+            <div class="col">
+                <img src="img/Chiigawa.png" alt="">
+                <div class="layer">
+                    <h3 onclick="showDescription('work')">香水1</h3>
+                </div>
+                <div id="workDescription" class="box">
+                    <h2 id="workTitle"></h2>
+                    <h4 id="workReq"></h4>
+                    <h3 id="workCat"></h3>
+                    <p id="workPurpose"></p>
+                    <p id="workDescriptionText"></p>
+                    <span id="closeButton">X</span>
+                </div>
+            </div>
+            --2--
+            <div class="col">
+                <img src="img//Chiigawa.png" alt="">
+                <div class="layer">
+                    <h3 onclick="showDescription('work')">香水2</h3>
+                </div>
+                <div id="workDescription" class="box">
+                    <h2 id="workTitle"></h2>
+                    <h4 id="workReq"></h4>
+                    <h3 id="workCat"></h3>
+                    <p id="workPurpose"></p>
+                    <p id="workDescriptionText"></p>
+                    <span id="closeButton">X</span>
+                </div>
+            </div>
+            --3--
+            <div class="col">
+                <img src="img/Chiigawa.png" alt="">
+                <div class="layer">
+                    <h3 onclick="showDescription('work')">香水3</h3>
+                </div>
+                <div id="workDescription" class="box">
+                    <h2 id="workTitle"></h2>
+                    <h4 id="workReq"></h4>
+                    <h3 id="workCat"></h3>
+                    <p id="workPurpose"></p>
+                    <p id="workDescriptionText"></p>
+                    <span id="closeButton">X</span>
+                </div>
+            </div>
+            --4--
+            <div class="col">
+                <img src="img/Chiigawa.png" alt="">
+                <div class="layer">
+                    <h3 onclick="showDescription('work')">香水4</h3>
+                </div>
+                <div id="workDescription" class="box">
+                    <h2 id="workTitle"></h2>
+                    <h4 id="workReq"></h4>
+                    <h3 id="workCat"></h3>
+                    <p id="workPurpose"></p>
+                    <p id="workDescriptionText"></p>
+                    <span id="closeButton">X</span>
+                </div>
+            </div>
+            --5--
+            <div class="col">
+                <img src="img/Chiigawa.png" alt="">
+                <div class="layer">
+                    <h3 onclick="showDescription('work')">香水5</h3>
+                </div>
+                <div id="workDescription" class="box">
+                    <h2 id="workTitle"></h2>
+                    <h4 id="workReq"></h4>
+                    <h3 id="workCat"></h3>
+                    <p id="workPurpose"></p>
+                    <p id="workDescriptionText"></p>
+                    <span id="closeButton">X</span>
+                </div>
+            </div>
+            --6--
+            <div class="col">
+                <img src="img/Chiigawa.png" alt="">
+                <div class="layer">
+                    <h3 onclick="showDescription('work')">香水6</h3>
+                </div>
+                <div id="workDescription" class="box">
+                    <h2 id="workTitle"></h2>
+                    <h4 id="workReq"></h4>
+                    <h3 id="workCat"></h3>
+                    <p id="workPurpose"></p>
+                    <p id="workDescriptionText"></p>
+                    <span id="closeButton">X</span>
+                </div>
+            </div
+        </div>-->
+        </section>
+        <div class="image-container">
+            <a href="#" class="btn-pre">預購連結</a>
+        </div>
+    </div>
+
+
+
+    <div class="about-us">
+        <section class="cta" id="feeback">
+            <div class="heading_about">
+                <h3>關於我們</h3>
+                <h2>About Us</h2>
+                <p>Pang Pang</p>
+            </div>
+        </section>
+        <div class="image-container_about"></div>
+    </div>
+    <div class="ends">
+        <p>乓乓工作室＠2024</p>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!----JS---->
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+
+</html>
