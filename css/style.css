@@ -727,6 +727,7 @@ header.sticky {
     .about-text h2,
     .about-text p {
         font-size: 1rem;
+        margin-left: 5px;
         /* adjust the font size to suit your needs */
     }
 
@@ -740,16 +741,18 @@ header.sticky {
     .about-img {
         margin-bottom: 30px;
 
+
     }
 
     .about-img img {
-        width: 100%;
+        width: 350px;
         height: auto;
         /* 高度自動，保持圖片的原始比例 */
         display: block;
         /* 區塊顯示，可幫助垂直方向排列 */
         margin: 0 auto;
         /* ensure the image is not larger than its container */
+        margin-left: -20px;
     }
 
     .btn-pre {
@@ -791,6 +794,8 @@ header.sticky {
     }
 }
 
+
+/* ipad */
 @media (min-width: 768px) and (max-width: 1024px) {
     .about-img img {
         max-width: 100%;
