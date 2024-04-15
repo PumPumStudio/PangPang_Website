@@ -752,7 +752,6 @@ header.sticky {
         /* 區塊顯示，可幫助垂直方向排列 */
         margin: 0 auto;
         /* ensure the image is not larger than its container */
-        margin-left: -20px;
     }
 
     .btn-pre {
