@@ -808,6 +808,11 @@ header.sticky {
         animation: scrollBackground 20s linear infinite;
     }
 
+
+    .image-container{
+        
+    }
+
 }
 
 /* ipad */
