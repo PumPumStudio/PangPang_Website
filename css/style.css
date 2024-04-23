@@ -729,7 +729,7 @@ header.sticky {
     .social {
         display: flex;
         margin-top: 20px;
-        margin-left: 179px;
+        margin-left: 185px;
         margin-bottom: -90px;
         /* 在按钮和社交链接之间提供一点间隔 */
     }
@@ -737,6 +737,7 @@ header.sticky {
     .social a {
         display: flex;
         margin-top: 20px;
+        margin-right: 10px;
         /* 在按钮和社交链接之间提供一点间隔 */
     }
 
@@ -771,12 +772,12 @@ header.sticky {
     }
 
     .btn-pre {
-        margin-top: 450px;
+        margin-top: 50px;
         margin-left: 120px;
     }
 
     .top-btn {
-        margin-left: -10px;
+        margin-left: 0px;
     }
 
     @keyframes scrollBackground {
@@ -809,8 +810,17 @@ header.sticky {
     }
 
 
-    .image-container{
-        
+    .image-container {
+        width: 100%;
+        /* 容器宽度，你也可以设定固定像素值 */
+        height: 200px;
+        /* 容器高度，根据需要调整 */
+
+        background-image: url('../img/Perfume2.png');
+        background-repeat: repeat-x;
+        /* 图片水平重复 */
+
+        animation: scrollBackground 20s linear infinite;
     }
 
 }
