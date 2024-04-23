@@ -709,6 +709,7 @@ header.sticky {
     .home-img img {
         width: 440px;
         height: auto;
+        margin-right: 20px;
     }
 
     :root {
@@ -778,11 +779,12 @@ header.sticky {
 
     .btn-pre {
         margin-top: 50px;
-        margin-left: 120px;
+        margin-left: 110px;
     }
 
     .top-btn {
-        margin-left: 0px;
+        margin-left: 110px;
+        margin-top: 50px;
     }
 
     @keyframes scrollBackground {
