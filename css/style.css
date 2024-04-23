@@ -741,6 +741,11 @@ header.sticky {
         /* 在按钮和社交链接之间提供一点间隔 */
     }
 
+    .social-2 a {
+        margin-top: 20px;
+        margin-right: 10px;
+        /* 在按钮和社交链接之间提供一点间隔 */
+    }
 
     .about-text h3,
     .about-text h2,
