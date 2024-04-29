@@ -88,8 +88,33 @@
             <div class="about-img">
                 <img src="./img/Intro.png" alt="">
             </div>
-            <a href="#" class="top-btn">聯繫我們</a>
+            <!-- <a href="#" class="top-btn">聯繫我們</a> -->
+            <!-- Google Calendar Appointment Scheduling begin -->
+            <style>
+                .scheduling-button .appt-button {
+                    transform: scale(1.5);
+                    /* 調整數值以放大或縮小按鈕 */
+                    transform-origin: center;
+                    /* 保持按鈕放大或縮小時的中心點 */
+                }
+            </style>
+            <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+            <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+            <script>
+                (function () {
+                    var target = document.currentScript;
+                    window.addEventListener('load', function () {
+                        calendar.schedulingButton.load({
+                            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2xDtbQ_AI5Wryi1gES4kV4aS9gkELg-Sg0CYUKy723kkUmM0z8axtXdWHJI626JgFNomekRfpO?gv=true',
+                            color: '#995757',
+                            label: '立即預約',
+                            target,
+                        });
 
+                    });
+                })();
+            </script>
+            <!-- end Google Calendar Appointment Scheduling -->
 
         </div>
     </section>

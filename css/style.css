@@ -91,7 +91,7 @@ header {
     display: none;
 }
 
-.top-btn {
+.qxCTlb {
     display: inline-block;
     padding: 9px 30px;
     background: transparent;
@@ -105,7 +105,7 @@ header {
     margin-left: -20px;
 }
 
-.top-btn:hover {
+.qxCTlb:hover {
     transform: scale(1, 1);
     background: var(--main-color);
     border: 2px solid var(--main-color);
@@ -834,6 +834,20 @@ header.sticky {
         margin-bottom: -60px;
     }
 
+    .qxCTlb {
+        display: inline-block;
+        padding: 9px 30px;
+        background: transparent;
+        border: 2px solid var(--main-color);
+        border-radius: 30px;
+        color: var(--text-color);
+        letter-spacing: 1px;
+        font-size: var(--p-font);
+        font-weight: 500;
+        transition: ease .50s;
+        margin-left: 140px;
+    }
+
 
 }
 
@@ -847,7 +861,8 @@ header.sticky {
         object-fit: contain;
         /* 不剪切圖片，確保圖片全部顯示 */
         width: 400px;
-        margin-left: 150px;
+        margin-left: 10px;
+        margin-top: 10px;
     }
 
     .btn-pre {
@@ -883,6 +898,10 @@ header.sticky {
         /* 图片水平重复 */
 
         animation: scrollBackground 20s linear infinite;
+    }
+
+    .qxCTlb {
+        margin-top: 30px;
     }
 
 
