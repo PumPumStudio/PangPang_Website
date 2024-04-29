@@ -847,12 +847,44 @@ header.sticky {
         object-fit: contain;
         /* 不剪切圖片，確保圖片全部顯示 */
         width: 400px;
-        margin-left: 560px;
+        margin-left: 150px;
     }
 
     .btn-pre {
-        margin-top: 450px;
-        margin-left: 420px;
+        margin-left: 300px;
     }
+
+    .top-btn {
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+
+    .image-container {
+        width: 100%;
+        /* 容器宽度，你也可以设定固定像素值 */
+        height: 400px;
+        /* 容器高度，根据需要调整 */
+
+        background-image: url('../img/Perfume2.png');
+        background-repeat: repeat-x;
+        /* 图片水平重复 */
+
+        animation: scrollBackground 20s linear infinite;
+    }
+
+    .image-container_about {
+        width: 100%;
+        /* 容器宽度，你也可以设定固定像素值 */
+        height: 300px;
+        /* 容器高度，根据需要调整 */
+
+        background-image: url('../img/About us.png');
+        background-repeat: repeat-x;
+        /* 图片水平重复 */
+
+        animation: scrollBackground 20s linear infinite;
+    }
+
+
 
 }
