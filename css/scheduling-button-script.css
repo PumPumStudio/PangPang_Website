@@ -1,0 +1,116 @@
+:root {
+    color-scheme: light;
+    --bg-color: #ffffff;
+    --text-color: #000;
+    --second-color: #a09dab;
+    --main-color: #995757;
+    --big-font: 4rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+    --tablet-width: 768px;
+    --phone-width: 576px;
+}
+
+.qxCTlb {
+    display: inline-block;
+    padding: 10px 50px;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 30px;
+    color: var(--text-color);
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: ease .50s;
+    margin-left: -20px;
+}
+
+.qxCTlb:hover {
+    transform: scale(1.1);
+    background: var(--main-color);
+    border: 2px solid var(--main-color);
+    color: var(--bg-color);
+    cursor: pointer;
+
+}
+
+.hur54b {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(32, 33, 36, .6);
+    padding: 72px;
+    z-index: 9999
+}
+
+.mmGMM {
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    width: 100%;
+    height: 100%
+}
+
+.Xfsokf {
+    position: fixed;
+    top: 26px;
+    right: 72px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border: none;
+    border-radius: 18px;
+    background-color: rgb(60, 64, 67);
+    height: 36px;
+    padding: 16px;
+    cursor: pointer
+}
+
+.L0Dvsd {
+    color: white;
+    font-size: 18px;
+    margin-right: 8px
+}
+
+.uE25ec {
+    font-size: 14px;
+    font-family: "Google Sans", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: .25px;
+    color: white
+}
+
+
+
+@media (max-width: 800px) {
+    .qxCTlb {
+        display: inline-block;
+        padding: 9px 30px;
+        background: transparent;
+        border: 2px solid var(--main-color);
+        border-radius: 30px;
+        color: var(--text-color);
+        letter-spacing: 1px;
+        font-size: var(--p-font);
+        font-weight: 500;
+        transition: ease .50s;
+        margin-left: 110px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .qxCTlb {
+        margin-top: 30px;
+    }
+
+}
+
+sentinel {}
