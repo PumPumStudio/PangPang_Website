@@ -770,9 +770,10 @@ header.sticky {
     }
 
     .btn-pre {
-        margin-top: 50px;
         margin-left: 110px;
+        margin-top: 10px;
     }
+
 
     .top-btn {
         margin-left: 110px;
