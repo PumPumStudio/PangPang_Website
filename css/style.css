@@ -751,7 +751,7 @@ header.sticky {
     .about {
         grid-template-columns: 1fr;
         /* single-column layout on smaller screens */
-        padding: 50px 3%;
+        padding: 85px 3%;
         /* smaller padding */
     }
 
@@ -770,7 +770,7 @@ header.sticky {
     }
 
     .btn-pre {
-        margin-left: 110px;
+        margin-left: 130px;
         margin-top: 10px;
     }
 
